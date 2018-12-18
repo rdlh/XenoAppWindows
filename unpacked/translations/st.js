@@ -1,0 +1,4 @@
+{
+	"open": "bulehileng",
+	"quit": "haufi"
+}

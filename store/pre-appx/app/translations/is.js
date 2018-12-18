@@ -1,0 +1,4 @@
+{
+	"open": "opinn",
+	"quit": "nærri"
+}

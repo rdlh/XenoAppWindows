@@ -1,0 +1,4 @@
+{
+	"open": "hapur",
+	"quit": "afër"
+}

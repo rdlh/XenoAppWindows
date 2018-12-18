@@ -1,0 +1,4 @@
+{
+	"open": "odprta",
+	"quit": "Zapri"
+}

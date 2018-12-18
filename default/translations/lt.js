@@ -1,0 +1,4 @@
+{
+	"open": "atviras",
+	"quit": "arti"
+}

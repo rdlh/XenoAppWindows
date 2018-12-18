@@ -1,0 +1,4 @@
+{
+	"open": "vekirî",
+	"quit": "nêzîkî"
+}

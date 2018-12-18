@@ -1,0 +1,4 @@
+{
+	"open": "Aprire",
+	"quit": "Chiudere"
+}

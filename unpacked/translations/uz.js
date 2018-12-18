@@ -1,0 +1,4 @@
+{
+	"open": "ochiq",
+	"quit": "yaqin"
+}

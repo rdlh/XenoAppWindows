@@ -1,0 +1,4 @@
+{
+	"open": "öppen",
+	"quit": "stänga"
+}

@@ -1,0 +1,4 @@
+{
+	"open": "terbuka",
+	"quit": "dekat"
+}

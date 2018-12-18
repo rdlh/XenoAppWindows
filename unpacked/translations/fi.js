@@ -1,0 +1,4 @@
+{
+	"open": "Avoin",
+	"quit": "Lähellä"
+}

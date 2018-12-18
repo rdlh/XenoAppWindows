@@ -1,0 +1,35 @@
+{
+  "name": "XenoApp",
+  "productName": "XenoApp",
+  "version": "1.0.0",
+  "description": "Windows Desktop application for Xeno",
+  "main": "index.js",
+  "homepage": "",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package-win": "electron-packager . XenoApp --overwrite --asar --platform=win32 --arch=ia32 --icon=assets/icons/xenoicon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"XenoApp\"",
+    "create-installer-win": "node installers/windows/createinstaller.js"
+  },
+  "build": {
+    "appId": "com.squirrel.XenoApp.XenoApp"
+  },
+  "author": {
+    "name": "Xeno",
+    "url": "https://xenoapp.com",
+    "email": "hello@xenoapp.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.8",
+    "electron-packager": "^12.2.0",
+    "electron-winstaller": "^2.7.0"
+  },
+  "dependencies": {
+    "electron-online": "^1.0.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "node-machine-id": "^1.1.10",
+    "node-notifier": "^5.3.0",
+    "pubnub": "^4.21.6"
+  }
+}

@@ -1,0 +1,4 @@
+{
+	"open": "åbent",
+	"quit": "tæt"
+}

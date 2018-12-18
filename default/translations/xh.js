@@ -1,0 +1,4 @@
+{
+	"open": "evulekileyo",
+	"quit": "ushiye"
+}

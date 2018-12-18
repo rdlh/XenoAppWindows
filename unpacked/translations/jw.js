@@ -1,0 +1,5 @@
+{
+	"open": "mbukak",
+	"quit": "cedhak"
+"
+}

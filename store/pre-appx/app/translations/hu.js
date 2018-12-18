@@ -1,0 +1,4 @@
+{
+	"open": "nyílt",
+	"quit": "közel"
+}

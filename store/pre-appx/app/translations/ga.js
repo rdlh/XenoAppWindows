@@ -1,0 +1,4 @@
+{
+	"open": "oscailte",
+	"quit": "gar"
+}

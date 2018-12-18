@@ -1,0 +1,4 @@
+{
+	"open": "avatud",
+	"quit": "lähedal"
+}

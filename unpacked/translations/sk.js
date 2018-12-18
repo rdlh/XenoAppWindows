@@ -1,0 +1,4 @@
+{
+	"open": "otvorený",
+	"quit": "zavrieť"
+}

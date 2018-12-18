@@ -1,0 +1,4 @@
+{
+	"open": "evulekile",
+	"quit": "vala"
+}

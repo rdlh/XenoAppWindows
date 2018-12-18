@@ -1,0 +1,4 @@
+{
+	"open": "miftuħa",
+	"quit": "qrib"
+}

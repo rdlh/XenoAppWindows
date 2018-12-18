@@ -1,0 +1,4 @@
+{
+	"open": "fosgailte",
+	"quit": "dùin"
+}

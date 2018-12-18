@@ -1,0 +1,4 @@
+{
+	"open": "bukas",
+	"quit": "malapit"
+}

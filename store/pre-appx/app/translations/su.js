@@ -1,0 +1,4 @@
+{
+	"open": "kabuka",
+	"quit": "nutup"
+}

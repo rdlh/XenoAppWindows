@@ -1,0 +1,4 @@
+{
+	"open": "agored",
+	"quit": "cau"
+}

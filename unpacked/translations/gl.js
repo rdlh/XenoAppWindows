@@ -1,0 +1,4 @@
+{
+	"open": "Aberto",
+	"quit": "Preto"
+}

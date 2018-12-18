@@ -1,0 +1,4 @@
+{
+	"open": "Oop",
+	"quit": "Naby"
+}

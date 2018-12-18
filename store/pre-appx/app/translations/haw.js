@@ -1,0 +1,4 @@
+{
+	"open": "Hamama",
+	"quit": "Kokoke"
+}

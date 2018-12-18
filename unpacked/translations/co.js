@@ -1,0 +1,4 @@
+{
+	"open": "apartu",
+	"quit": "chiudi"
+}

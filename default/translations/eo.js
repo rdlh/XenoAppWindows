@@ -1,0 +1,4 @@
+{
+	"open": "malfermita",
+	"quit": "proksimaj"
+}

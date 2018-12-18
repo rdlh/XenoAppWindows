@@ -1,0 +1,4 @@
+{
+	"open": "deschis",
+	"quit": "închide"
+}

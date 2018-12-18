@@ -1,0 +1,4 @@
+{
+	"open": "Patentibus",
+	"quit": "Prope"
+}
