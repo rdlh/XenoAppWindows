@@ -27,7 +27,8 @@ in "default" folder -> generates a .exe (installer) in release-builds/windows-in
 
 
 ### To package the app for Windows Store :
-Run the following command from an elevated PowerShell (run as Administrator) :
+Copy all files generated when packaging the app (files in unpacked/release-builds/XenoApp-win32-ia32) into "unpacked" folder, then delete "release-builds" folder from "unpacked"
+Then run the following command from an elevated PowerShell (run as Administrator) in root folder :
 ```
 electron-windows-store `
             --input-directory unpacked `
