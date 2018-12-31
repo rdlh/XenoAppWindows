@@ -14,7 +14,7 @@ Node modules used :
 ```
 npm run package-win
 ```
-in "default" folder -> generates the packaged app in release-builds/XenoApp-win32-ia32 folder
+in "default" or "unpacked" folder -> generates the packaged app in release-builds/XenoApp-win32-ia32 folder
 
 
 
@@ -38,7 +38,7 @@ electron-windows-store `
             --package-description {description} `
             --assets assets `
             --publisher CN=8D9F185A-3885-4A4D-82B6-4215CABDDBA7 `
-            --publisher-display-name "Ask Technologies, Inc.""
+            --publisher-display-name "Ask Technologies, Inc."
 ```
 
 This will create an .appx file in store folder that can be submitted to the Microsoft store
