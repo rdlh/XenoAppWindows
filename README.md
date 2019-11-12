@@ -1,5 +1,7 @@
 # XenoAppWindows
 
+**Those are the old installation instructions, to follow the new ones, go on the [New Version](https://github.com/rdlh/XenoAppWindows/wiki/New-Version) wiki page.**
+
 Node modules used :
 - pubnub
 - node-notifier to display toast notifications on Windows 10
