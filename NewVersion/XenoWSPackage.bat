@@ -18,7 +18,7 @@ cmd /C electron-windows-store --publisher-display-name=%publisherDisplayName% --
 :: uwp configs for the assets (makepri commands), and then repack the app
 cmd /C makeAppx.exe unpack /p .\%appName%\%appName%.appx /d ".\output" && cd .\output && makepri.exe createconfig /cf priconfig.xml /dq en-US /pv 10.0.0 && makepri new /pr . /cf priconfig.xml && makeappx.exe pack /d . /p ..\%appName%\%appName%.appx /l /o || goto :error
 
-echo. && echo. && echo. && echo You will now have to select the generated PFX certficate for your app.
+echo. && echo. && echo. && echo You will now have to select the generted PFX certficate for your app.
 echo It should be located around C:\Users\{user}}\AppData\Roaming\electron-windows-store\{certficate id}\{certficate id}.pfx && echo.
 pause
 
