@@ -1,11 +1,12 @@
 @echo off
 
 set appName=XenoApp
+set appLink="https://xeno.app/users/sign_in"
 
 echo Processing...
 
 :: nativefy the app and copy the assets in the app folder
-cmd /C nativefier --name %appName% --icon assets\xenoicon.ico --internal-urls ".*?" "https://xeno.app/users/sign_in" || goto :error
+cmd /C nativefier --name %appName% --icon assets\xenoicon.ico --internal-urls ".*?" %appLink% || goto :error
 xcopy /E /I "assets" "%appName%-win32-x64\assets\"
 
 :: post nativefy infos

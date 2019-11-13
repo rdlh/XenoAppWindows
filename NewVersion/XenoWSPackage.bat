@@ -12,7 +12,7 @@ set postInstallClean=y
 cmd /C if exist .\output\ rd /q /s .\output\ || goto :error 
 
 :: main command -> packages the nativefier app for the windows store
-cmd /C electron-windows-store --publisher-display-name=%publisherDisplayName% --identity-name %identityName% --assets XenoApp-win32-x64\assets --input-directory XenoApp-win32-x64/ --output-directory %appName% --package-version 1.0.0.0 --package-name %appName% --package-display-name %appName% || goto :error 
+cmd /C electron-windows-store --publisher-display-name=%publisherDisplayName% --identity-name %identityName% --assets XenoApp-win32-x64\assets --input-directory %appName%-win32-x64/ --output-directory %appName% --package-version 1.0.0.0 --package-name %appName% --package-display-name %appName% || goto :error 
 
 :: because of some weird icon issues we need to unpack the app, create some
 :: uwp configs for the assets (makepri commands), and then repack the app
