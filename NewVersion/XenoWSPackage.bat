@@ -43,7 +43,7 @@ if exist .\output\ (
 		rd /q /s .\output\)) || goto :error 
 endlocal
 
-echo %appName% successfully installed and packaged.
+echo. && echo [92m%appName% successfully installed and packaged.[0m
 
 pause
 
