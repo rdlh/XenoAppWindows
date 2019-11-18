@@ -20,7 +20,7 @@ cmd /C electron-windows-store --publisher-display-name=%publisherDisplayName% --
 cmd /C makeAppx.exe unpack /p .\%appName%\%appName%.appx /d ".\output" && cd .\output && makepri.exe createconfig /cf priconfig.xml /dq en-US /pv 10.0.0 && makepri new /pr . /cf priconfig.xml && makeappx.exe pack /d . /p ..\%appName%\%appName%.appx /l /o || goto :error
 
 echo. && echo. && echo. && echo [96mYou will now have to select the generted PFX certficate for your app.[0m
-echo [96mIt should be located around C:\Users\{user}}\AppData\Roaming\electron-windows-store\{certficate id}\{certficate id}.pfx[0m && echo.
+echo [96mIt should be located in XenoAppWindows\NewVersion\Certificate\AskTechnologies.pfx[0m && echo.
 pause
 
 :: file selector
