@@ -20,3 +20,4 @@ pause
 
 :error
 exit /b %errorlevel%
+pause
