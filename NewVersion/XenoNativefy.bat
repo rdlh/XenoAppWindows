@@ -11,10 +11,10 @@ xcopy /E /I "assets" "%appName%-win32-x64\assets\"
 
 :: post nativefy infos
 echo.
-echo Installation finished.
-echo Now go in XenoApp-win32-x64\resources\app\lib\mains.js and add
-echo _electron.app.setAppUserModelId("%appName%") at line 133
-echo (it should be under electronSquirrelStartup declaration)
+echo [92mInstallation finished.[0m
+echo [96mNow go in XenoApp-win32-x64\resources\app\lib\mains.js and add[0m
+echo [96m_electron.app.setAppUserModelId("%appName%") at line 133[0m
+echo [96m(it should be under electronSquirrelStartup declaration)[0m
 
 pause
 

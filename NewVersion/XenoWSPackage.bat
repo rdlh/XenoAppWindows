@@ -13,14 +13,14 @@ set postInstallClean=y
 cmd /C if exist .\output\ rd /q /s .\output\ || goto :error 
 
 :: main command -> packages the nativefier app for the windows store
-cmd /C electron-windows-store --publisher %publisher% --publisher-display-name=%publisherDisplayName% --identity-name %identityName% --assets XenoApp-win32-x64\assets --input-directory %appName%-win32-x64/ --output-directory %appName% --package-version 1.0.0.0 --package-name %appName% --package-display-name %appName% || goto :error 
+cmd /C electron-windows-store --publisher-display-name=%publisherDisplayName% --identity-name %identityName% --assets XenoApp-win32-x64\assets --input-directory %appName%-win32-x64/ --output-directory %appName% --package-version 1.0.0.0 --package-name %appName% --package-display-name %appName% || goto :error 
 
 :: because of some weird icon issues we need to unpack the app, create some
 :: uwp configs for the assets (makepri commands), and then repack the app
 cmd /C makeAppx.exe unpack /p .\%appName%\%appName%.appx /d ".\output" && cd .\output && makepri.exe createconfig /cf priconfig.xml /dq en-US /pv 10.0.0 && makepri new /pr . /cf priconfig.xml && makeappx.exe pack /d . /p ..\%appName%\%appName%.appx /l /o || goto :error
 
-echo. && echo. && echo. && echo You will now have to select the generted PFX certficate for your app.
-echo It should be located around C:\Users\{user}}\AppData\Roaming\electron-windows-store\{certficate id}\{certficate id}.pfx && echo.
+echo. && echo. && echo. && echo [96mYou will now have to select the generted PFX certficate for your app.[0m
+echo [96mIt should be located around C:\Users\{user}}\AppData\Roaming\electron-windows-store\{certficate id}\{certficate id}.pfx[0m && echo.
 pause
 
 :: file selector
