@@ -27,9 +27,11 @@ UsedUserAreasWarning=no
 OutputDir=.\
 OutputBaseFilename=XenoAppInstaller
 SetupIconFile=.\assets\xenoicon.ico
+UninstallDisplayIcon={app}\{#MyAppExeName}
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
+; SignTool=Signtool
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
